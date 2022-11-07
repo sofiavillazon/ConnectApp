@@ -22,7 +22,7 @@ const TemplateList: React.FC = () => {
       <ThemeProvider theme={theme}>
         <Box className="templateList">
 
-          <Typography color="text.primary" variant="h5" mb={3} mt={0}>
+          {/* <Typography color="text.primary" variant="h5" mb={3} mt={0}>
             Login
           </Typography>
 
@@ -36,7 +36,7 @@ const TemplateList: React.FC = () => {
               route="/login"
               column={6}
             />
-          </Grid>
+          </Grid> */}
 
           <Typography color="text.primary" variant="h5" mb={3} mt={5}>
             List of Users
