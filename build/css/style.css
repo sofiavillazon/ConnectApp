@@ -1,0 +1,24 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-family: "IBM Plex Sans","Helvetica","Arial",sans-serif!important;
+    background-color: #FAFCFD;
+}
+
+.templateList {
+    padding: 65px;
+}
+.templateList .MuiPaper-root.MuiCard-root 
+{border-radius: 16px;}
+.templateList .MuiPaper-root.MuiCard-root a{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .templateList {
+        padding: 35px;
+    }
+  }
